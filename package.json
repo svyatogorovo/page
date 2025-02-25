@@ -1,0 +1,23 @@
+{
+  "name": "page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Поклонный крест в Святогорово",
+  "license": "none",
+  "homepage": "https://github.com/svyatogorovo/page/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "smooth-scroll": "^16.1.3"
+  }
+}
