@@ -9,7 +9,7 @@
   "lang": "ru",
   "icons": [
     {
-      "src": "/vite.svg",
+      "src": "/favicon.svg",
       "type": "image/svg+xml",
       "sizes": "any",
       "purpose": "any maskable"
