@@ -2,27 +2,111 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8"/>
-  <title>Святогорово: Паломничество в Подмосковье - Поклонный крест, Купель, Часовенка - Паломничество в
-    Подмосковье</title>
-  <meta name="description"
-        content="Святогорово. Посетите Поклонный крест, Часовенку, Купель, познакомьтесь с историей и природой. Узнайте о детском лагере и гостевом доме!">
-  <meta name="keywords"
-        content="Святогорово, Поклонный крест, Часовенка, Купель, паломничество, Дмитров, Подмосковье, история, православие, природа, отдых, гостевой дом, лагерь для детей"/>
+  <title>Святогорово: Паломничество в Подмосковье — Поклонный крест, Купель, Часовенка</title>
+  <meta name="description" content="Святогорово. Посетите Поклонный крест, Часовенку, Купель, познакомьтесь с историей и природой. Узнайте о детском лагере и гостевом доме!">
+  <meta name="keywords" content="Святогорово, Поклонный крест, Часовенка, Купель, паломничество, Дмитров, Подмосковье, история, православие, природа, отдых, гостевой дом, лагерь для детей"/>
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://святогорово.рф/">
   <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
-<!--  <link rel="stylesheet" href="/src/fonts.css"/>-->
-<!--  <link rel="stylesheet" href="/src/flexmasonry.css"/>-->
-<!--  <link rel="stylesheet" href="/src/style.css"/>-->
+  <link rel="preload" href="/fonts/vezitsacyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/bg-1.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="preload" href="/map-1.webp" as="image" type="image/webp">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   <meta property="og:title" content="Святогорово: место силы и духовного наследия">
-  <meta property="og:description" content="Святогорово - духовный центр Подмосковья. Посетите Поклонный крест, Часовенку, Купель, познакомьтесь с историей и природой. Узнайте о детском лагере и гостевом доме!">
+  <meta property="og:description" content="Святогорово — духовный центр Подмосковья. Посетите Поклонный крест, Часовенку, Купель, познакомьтесь с историей и природой. Узнайте о детском лагере и гостевом доме!">
   <meta property="og:image" content="https://святогорово.рф/images/krest-0.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="853">
   <meta property="og:url" content="https://святогорово.рф/">
   <meta property="og:type" content="website">
-  <script type="module" crossorigin src="/assets/index-Cr1vRqkn.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DXuApKyt.css">
+  <meta property="og:locale" content="ru_RU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Святогорово: место силы и духовного наследия">
+  <meta name="twitter:description" content="Святогорово — духовный центр Подмосковья. Поклонный крест, Купель, Часовенка, тропа Сергия Радонежского, гостевой дом.">
+  <meta name="twitter:image" content="https://святогорово.рф/images/krest-0.jpg">
+
+  <meta name="geo.region" content="RU-MOS">
+  <meta name="geo.placename" content="Святогорово, Дмитровский район, Московская область">
+  <meta name="geo.position" content="56.457;37.456">
+  <meta name="ICBM" content="56.457, 37.456">
+  <link rel="alternate" type="application/rss+xml" title="Святогорово — Яндекс Турбо" href="https://святогорово.рф/turbo.rss">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TouristAttraction",
+        "@id": "https://святогорово.рф/#main",
+        "name": "Святогорово",
+        "description": "Духовный центр Подмосковья в Дмитровском районе Московской области. Поклонный крест, часовенка Николая Чудотворца, купель, тропа преподобного Сергия Радонежского.",
+        "url": "https://святогорово.рф/",
+        "telephone": "+79265551920",
+        "email": "igrastoria@mail.ru",
+        "image": "https://святогорово.рф/images/krest-0.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Святогорово",
+          "addressRegion": "Московская область",
+          "addressCountry": "RU"
+        },
+        "sameAs": ["https://yandex.ru/maps/-/CHuXa40Q"]
+      },
+      {
+        "@type": "LodgingBusiness",
+        "@id": "https://святогорово.рф/#guest-house",
+        "name": "Гостевой дом Святогорово",
+        "description": "Уютный гостевой дом для туристов и паломников в экологически чистом месте.",
+        "url": "https://святогорово.рф/#guest-house",
+        "telephone": "+79265551920",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Святогорово",
+          "addressRegion": "Московская область",
+          "addressCountry": "RU"
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://святогорово.рф/#podvor",
+        "name": "Подворье Борисоглебского мужского монастыря",
+        "description": "Подворье Борисоглебского мужского монастыря в Святогорово.",
+        "url": "https://святогорово.рф/#podvor",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Святогорово",
+          "addressRegion": "Московская область",
+          "addressCountry": "RU"
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="module" crossorigin src="/assets/index-CTSorHaO.js"></script>
+  <style>html{scroll-behavior:smooth}*{box-sizing:border-box;-webkit-user-select:none;user-select:none;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}body{background-color:#efead6;height:100vh;font-family:Arial,Helvetica,sans-serif}p{margin-top:0;font-size:20px}a{text-decoration:none}h2{font-family:VezitsaCyrillic,sans-serif;font-size:40px}@media (width>=600px){h2{font-size:86px}}button{cursor:pointer;color:#fff;background:#e85757;border:none;border-radius:30px;width:120px;padding:16px;font-size:18px;font-weight:700;display:block}.map{color:#fff;width:100%;max-width:1200px;height:max-content;min-height:360px;max-height:860px;transform-style:preserve-3d;filter:drop-shadow(0 0 38px #00000080);will-change:transform;background:#959485 url(/map-1.webp) 50% no-repeat;border-radius:32px;margin:auto;padding:32px;transition:transform .1s;position:relative;overflow:hidden}@media (width>=600px){.map{height:100%;min-height:460px;padding:62px}}.map:before{content:"";background:#0006;width:100%;height:100%;position:absolute;inset:0}.map:hover .content{transform:translateZ(6px)}.content{z-index:1;flex-flow:column;gap:62px;height:100%;transition:transform .6s;display:flex;position:relative}.button{cursor:pointer;z-index:2;width:max-content;padding:14px 32px;transition:transform .1s ease-in-out,box-shadow .1s ease-in-out,opacity .1s ease-in-out;display:inline-flex}button:hover{opacity:.95}button:active{transform:scale(.98);box-shadow:0 2px 4px #0003}.map-container{background:#080a07 url(/bg-1.webp) 50%/cover no-repeat;justify-content:center;align-items:center;height:100%;min-height:max-content;padding:40px;display:flex}.map-header{color:#eee;filter:drop-shadow(0 0 38px #00000080)}@media (width>=600px){.map-header{font-size:42px}}.map-description{color:#eee;filter:drop-shadow(0 0 38px #00000080);font-size:24px;line-height:1.3}.map-description:first-letter{float:left;color:#963a2f;text-shadow:1px 1px 1px #0003;margin-right:2px;padding-top:4px;padding-right:6px;font-family:VezitsaCyrillic,sans-serif;font-size:2em;line-height:.6}@media (width>=600px){.map-description{line-height:4}.map-description:first-letter{font-size:3em;line-height:.8}}.map-author{font-family:Arial,Helvetica,sans-serif;font-size:14px;position:absolute;bottom:10px;right:10px}@media screen and (width<=600px){.map-author{position:relative}}.story-section{color:#343434;align-items:center;width:100%;max-width:1200px;margin:auto;padding:60px 8px;display:flex}.footer{background:#2a2620;margin-top:40px;padding:60px 24px 80px}.footer-container{text-align:center;flex-direction:column;align-items:center;gap:4px;max-width:640px;margin:0 auto;padding:0;list-style:none;display:flex}.footer-item{color:#e8e4d0;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.6}.footer-item>a{color:#e8e4d0;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.5;transition:color .15s}.footer-item>a:hover{color:#e85757}.footer-item_s{color:#e8e4d0b3;text-transform:uppercase;letter-spacing:.06em;margin-top:20px;font-family:Arial,Helvetica,sans-serif;font-size:12px}.footer-phone{color:#e8e4d0;letter-spacing:.02em;font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:700;display:inline-flex}.footer-phone:hover{color:#e85757}.site-nav{z-index:100;-webkit-backdrop-filter:blur(8px);scrollbar-width:none;background:#efead6f2;border-bottom:1px solid #0000001a;position:sticky;top:0;overflow-x:auto}.site-nav::-webkit-scrollbar{display:none}.site-nav__list{white-space:nowrap;gap:4px;margin:0;padding:8px 16px;list-style:none;display:flex}@media (width>=900px){.site-nav__list{white-space:normal;flex-wrap:wrap;justify-content:center;padding:6px 24px}}.site-nav__link{color:#333;border-radius:20px;padding:8px 14px;font-family:Arial,Helvetica,sans-serif;font-size:14px;transition:background .15s;display:block}.site-nav__link:hover{background:#00000014}@font-face{font-family:VezitsaCyrillic;src:url(/assets/vezitsacyrillic-CDj_ssWr.woff2)format("woff2");font-weight:400;font-style:normal;font-display:swap}*{font-family:VezitsaCyrillic,sans-serif}body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,figure,figcaption,blockquote,dl,dt,dd{margin:0;padding:0}.masonry{grid-gap:32px;grid-template-columns:1fr;width:100%;margin:0 auto;display:grid;position:relative}@media (width>=600px){.masonry{grid-template-columns:repeat(2,1fr)}}@media (width>=900px){.masonry{grid-template-columns:repeat(3,1fr)}}.masonry-item{box-sizing:border-box;z-index:2;background-color:#f9f9f9;border:1px solid #ddd;border-radius:8px;width:auto;height:min-content;margin-bottom:0;padding:10px;overflow:hidden}@media (width>=600px){.masonry-item_wide,.masonry-item_wide_2{grid-column:span 2}.masonry-item_wide_3{grid-column:span 3}}.masonry-item__title{margin-top:0;font-size:1.5em}.masonry-item__text{font-family:Arial,Helvetica,sans-serif;line-height:1.4}.masonry-item__text:first-letter{float:left;color:#963a2f;text-shadow:1px 1px 1px #0003;padding-top:4px;padding-right:6px;font-family:VezitsaCyrillic,sans-serif;font-size:4em;line-height:.6}.masonry-item__image{max-width:100%;height:auto;display:block;box-shadow:0 6px 24px #0000000d,0 0 0 1px #00000014}.masonry-item_type_header{text-align:center;background-color:#fffde7;border-color:#fff9c4;margin-bottom:15px;padding:32px;font-family:VezitsaCyrillic,sans-serif;font-size:3em;line-height:1.1;position:relative}.masonry-item_type_header--compact{font-size:2.4em}.masonry-item_type_image{background-color:#0000;border:none;padding:0}.masonry-item_type_text{background-color:#f0f0f0;padding:32px}.masonry-item_type_separator{background-color:#ccc;border:none;width:100%;height:1px;margin:15px 0;padding:0}.line-container{pointer-events:none;z-index:10;width:100%;height:100%;position:absolute;top:0;left:0}.line-path{fill:none;stroke:#963a2f;stroke-width:15px;stroke-linecap:round;stroke-dasharray:1000;stroke-dashoffset:1000px}.line-item{z-index:2;position:relative}
+</style>
 </head>
 <body>
   <div id="dotted-line"></div>
+
+  <nav class="site-nav" aria-label="Разделы страницы">
+    <ul class="site-nav__list">
+      <li><a class="site-nav__link" href="#krest">Поклонный крест</a></li>
+      <li><a class="site-nav__link" href="#church">Часовня</a></li>
+      <li><a class="site-nav__link" href="#kupel">Купель</a></li>
+      <li><a class="site-nav__link" href="#history">История</a></li>
+      <li><a class="site-nav__link" href="#architecture">Архитектура</a></li>
+      <li><a class="site-nav__link" href="#nature">Природа</a></li>
+      <li><a class="site-nav__link" href="#sergiy">Тропа Сергия</a></li>
+      <li><a class="site-nav__link" href="#lager">Лагеря</a></li>
+      <li><a class="site-nav__link" href="#game">Игра</a></li>
+      <li><a class="site-nav__link" href="#podvor">Подворье</a></li>
+      <li><a class="site-nav__link" href="#guest-house">Гостевой дом</a></li>
+    </ul>
+  </nav>
+
 <section class="map-container" id="home">
   <article class="map">
     <div class="content">
@@ -36,44 +120,60 @@
 
 <section class="story-section" id="places">
   <div class="masonry" id="masonry-container">
- <!-- <svg class="line-container" width="100%" height="100%">
-      <path id="motion-path" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="5 5"/>
-    </svg> -->
+
     <h2 class="masonry-item masonry-item_type_header path-point" id="krest">Поклонный крест</h2>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/krest-0.jpg"
-           alt="Поклонный крест в Святогорово"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/krest-0.webp" type="image/webp">
+        <img src="/images/krest-0.jpg"
+             alt="Поклонный крест в Святогорово"
+             class="masonry-item__image"
+             width="1280" height="853"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">Поклонный крест возвышается в Святогорово, словно духовный маяк, видимый
-        издалека и притягивающий
-        взоры. Он стоит на открытом месте, где ничто не отвлекает от размышлений о вечном. Простые, строгие линии креста
-        устремлены ввысь, символизируя связь земного и небесного, напоминая о духовных основах этого места.
+        издалека и притягивающий взоры. Он стоит на открытом месте, где ничто не отвлекает от размышлений о вечном.
+        Простые, строгие линии креста устремлены ввысь, символизируя связь земного и небесного, напоминая о духовных
+        основах этого места.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/krest-3.jpg"
-           alt="Поклонный крест в Святогорово"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/krest-3.webp" type="image/webp">
+        <img src="/images/krest-3.jpg"
+             alt="Поклонный крест в Святогорово"
+             class="masonry-item__image"
+             width="960" height="1280"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">Вокруг креста простирается тишина, нарушаемая лишь шелестом листьев и пением
-        птиц. Здесь, вдали от
-        мирской суеты, ощущается особое умиротворение. Солнечные лучи, играющие на дереве креста, или мягкий свет заката
-        создают атмосферу благоговения и покоя, приглашая путников остановиться и задуматься о душе.
+        птиц. Здесь, вдали от мирской суеты, ощущается особое умиротворение. Солнечные лучи, играющие на дереве
+        креста, или мягкий свет заката создают атмосферу благоговения и покоя, приглашая путников остановиться и
+        задуматься о душе.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/krest-32.jpg"
-           alt="Поклонный крест в Святогорово"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/krest-32.webp" type="image/webp">
+        <img src="/images/krest-32.jpg"
+             alt="Поклонный крест в Святогорово"
+             class="masonry-item__image"
+             width="640" height="853"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Посещение Поклонного креста – это возможность прикоснуться к духовной сути
-        Святогорово. Это место, где
-        можно почувствовать себя ближе к Богу, укрепить веру и найти ответы на важные вопросы. Фотографии этого места
-        передают лишь малую часть той благодати, которую можно ощутить, находясь рядом с крестом.
+      <p class="masonry-item__text">Посещение Поклонного креста — это возможность прикоснуться к духовной сути
+        Святогорово. Это место, где можно почувствовать себя ближе к Богу, укрепить веру и найти ответы на важные
+        вопросы. Фотографии этого места передают лишь малую часть той благодати, которую можно ощутить, находясь
+        рядом с крестом.
       </p>
     </div>
 
@@ -86,91 +186,126 @@
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/chudotvor-1.jpg" alt="Часовенка Николая Чудотворца" class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/chudotvor-1.webp" type="image/webp">
+        <img src="/images/chudotvor-1.jpg" alt="Часовенка Николая Чудотворца"
+             class="masonry-item__image" width="853" height="1280"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">Внутри часовенки царит полумрак, проникающий сквозь узкие окна. Мягкий свет
-        лампад и свечей освещает лик святого Николая Чудотворца на иконе. В этом тихом пространстве, наполненном запахом
-        ладана и дерева, легко отрешиться от мирских забот и погрузиться в молитву.
+        лампад и свечей освещает лик святого Николая Чудотворца на иконе. В этом тихом пространстве, наполненном
+        запахом ладана и дерева, легко отрешиться от мирских забот и погрузиться в молитву.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/chudotvor-3.jpg" alt="Часовенка Николая Чудотворца" class="masonry-item__image"/>
+      <img src="/images/chudotvor-3.jpg" alt="Часовенка Николая Чудотворца"
+           class="masonry-item__image" width="1073" height="1280"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Посещение часовенки – это возможность обрести душевное равновесие и умиротворение.
-        Здесь можно попросить помощи и заступничества у святого Николая, поблагодарить за благодеяния и просто побыть в
-        тишине, наедине со своими мыслями и верой.
+      <p class="masonry-item__text">Посещение часовенки — это возможность обрести душевное равновесие и
+        умиротворение. Здесь можно попросить помощи и заступничества у святого Николая, поблагодарить за благодеяния
+        и просто побыть в тишине, наедине со своими мыслями и верой.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
       <img src="/images/chudotvor-2.jpg"
            alt="Часовенка Николая Чудотворца"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="1280" height="1223"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
     </div>
 
     <!-- Купель -->
     <h2 class="masonry-item masonry-item_type_header path-point" id="kupel">Купель</h2>
     <div class="masonry-item masonry-item_type_text vertical-align">
-      <p class="masonry-item__text">Купель Святогорово – это источник живительной родниковой воды, место духовного и
+      <p class="masonry-item__text">Купель Святогорово — это источник живительной родниковой воды, место духовного и
         телесного очищения. Она расположена в живописном уголке, где природа словно сама способствует умиротворению и
         обновлению. Освященные воды купели струятся прохладой, обещая освежение и исцеление.
       </p>
     </div>
-    <div class="masonry-item masonry-item_type_image  masonry-item_wide">
-      <img src="/images/kupel-1.jpg" alt="Купель Святогорово" class="masonry-item__image"/>
+    <div class="masonry-item masonry-item_type_image masonry-item_wide">
+      <img src="/images/kupel-1.jpg" alt="Купель Святогорово"
+           class="masonry-item__image" width="1000" height="598"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/kupel-2.jpg" alt="Купель Святогорово" class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/kupel-2.webp" type="image/webp">
+        <img src="/images/kupel-2.jpg" alt="Купель Святогорово"
+             class="masonry-item__image" width="960" height="1280"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Погружение в купель – это особенный ритуал, символизирующий обновление и избавление
-        от всего нечистого. Родниковая вода, холодная и бодрящая, омывает тело и душу, даря ощущение легкости и чистоты.
-        Тишина вокруг, нарушаемая лишь журчанием воды, помогает сосредоточиться на внутреннем мире и духовном
-        преображении.
+      <p class="masonry-item__text">Погружение в купель — это особенный ритуал, символизирующий обновление и
+        избавление от всего нечистого. Родниковая вода, холодная и бодрящая, омывает тело и душу, даря ощущение
+        легкости и чистоты. Тишина вокруг, нарушаемая лишь журчанием воды, помогает сосредоточиться на внутреннем
+        мире и духовном преображении.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
       <img src="/images/kupel-3.jpg"
            alt="Купель Святогорово"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="1280" height="924"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Купель Святогорово – это не просто место для омовения, это место, где можно обрести
-        духовную силу и обновиться, почувствовать прилив энергии и веры. Ощущение чистоты и обновления, полученное в
-        купели, остается надолго, напоминая о важности духовного очищения.
+      <p class="masonry-item__text">Купель Святогорово — это не просто место для омовения, это место, где можно
+        обрести духовную силу и обновиться, почувствовать прилив энергии и веры. Ощущение чистоты и обновления,
+        полученное в купели, остается надолго, напоминая о важности духовного очищения.
       </p>
     </div>
 
     <!-- История Святогорово -->
     <h2 class="masonry-item masonry-item_type_header path-point" id="history">История Святогорово</h2>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">История Святогорово – это история тихой русской деревни, неразрывно связанная с
-        окружающими монастырями и православными традициями. Веками эта земля хранила веру и уклад жизни, передаваемый из
-        поколения в поколение. Святогорово – это часть большого исторического полотна России, свидетельница многих
+      <p class="masonry-item__text">История Святогорово — это история тихой русской деревни, неразрывно связанная с
+        окружающими монастырями и православными традициями. Веками эта земля хранила веру и уклад жизни, передаваемый
+        из поколения в поколение. Святогорово — это часть большого исторического полотна России, свидетельница многих
         событий и перемен.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/svyatogorovo-1.jpg" alt="История Святогорово" class="masonry-item__image"/>
+      <img src="/images/svyatogorovo-1.jpg" alt="История Святогорово"
+           class="masonry-item__image" width="1024" height="687"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Хотя история Святогорово не изобилует громкими событиями, ее ценность в сохранении
-        традиционного образа жизни и духовных устоев. Здесь, вдали от больших городов, время течет медленнее, позволяя
-        ощутить связь с прошлым и понять глубинные корни русской культуры и православия. Эта земля дышит историей,
-        напоминая о важности сохранения духовного наследия.
+      <p class="masonry-item__text">Хотя история Святогорово не изобилует громкими событиями, ее ценность в
+        сохранении традиционного образа жизни и духовных устоев. Здесь, вдали от больших городов, время течет
+        медленнее, позволяя ощутить связь с прошлым и понять глубинные корни русской культуры и православия.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/svyatogorovo-2.jpg" alt="История Святогорово" class="masonry-item__image"/>
+      <img src="/images/svyatogorovo-2.jpg" alt="История Святогорово"
+           class="masonry-item__image" width="1280" height="720"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/svyatogovo-3.jpg"
-           alt="История Святогорово"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/svyatogovo-3.webp" type="image/webp">
+        <img src="/images/svyatogovo-3.jpg"
+             alt="История Святогорово"
+             class="masonry-item__image"
+             width="768" height="1024"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Святогорово – это место, где можно почувствовать себя частью истории, осознать
+      <p class="masonry-item__text">Святогорово — это место, где можно почувствовать себя частью истории, осознать
         ценность простых человеческих истин и традиций. Здесь время словно замедляется, позволяя погрузиться в
         размышления о прошлом и настоящем, о духовных основах жизни и непреходящих ценностях.
       </p>
@@ -179,28 +314,41 @@
     <!-- Архитектура Святогорово -->
     <h2 class="masonry-item masonry-item_type_header path-point" id="architecture">Архитектура Святогорово</h2>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/arch-1.jpg" alt="Архитектура Святогорово" class="masonry-item__image"/>
+      <img src="/images/arch-1.jpg" alt="Архитектура Святогорово"
+           class="masonry-item__image" width="1200" height="900"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Архитектура Святогорово и окрестностей – это редкий пример сохранившегося
+      <p class="masonry-item__text">Архитектура Святогорово и окрестностей — это редкий пример сохранившегося
         древнерусского стиля, который можно встретить лишь в немногих уголках России. Простота и функциональность
-        зданий, выполненных из натуральных материалов, гармонично вписываются в окружающий ландшафт. Деревянные дома с
-        резными наличниками, скромные часовенки и монастырские постройки создают неповторимый облик этого места.
+        зданий, выполненных из натуральных материалов, гармонично вписываются в окружающий ландшафт. Деревянные дома
+        с резными наличниками, скромные часовенки и монастырские постройки создают неповторимый облик этого места.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/arch-2.jpg" alt="Архитектура Святогорово" class="masonry-item__image"/>
+      <img src="/images/arch-2.jpg" alt="Архитектура Святогорово"
+           class="masonry-item__image" width="1280" height="960"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">В архитектуре Святогорово чувствуется связь с традициями русского деревянного
-        зодчества. Здесь нет излишней вычурности и стремления к роскоши, главное – простота, естественность и гармония с
-        природой. Каждый дом, каждая постройка несут в себе отпечаток вековых традиций и духовных ценностей.
+        зодчества. Здесь нет излишней вычурности и стремления к роскоши, главное — простота, естественность и
+        гармония с природой. Каждый дом, каждая постройка несут в себе отпечаток вековых традиций и духовных
+        ценностей.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/arch-3.jpg"
-           alt="Архитектура Святогорово"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/arch-3.webp" type="image/webp">
+        <img src="/images/arch-3.jpg"
+             alt="Архитектура Святогорово"
+             class="masonry-item__image"
+             width="1277" height="900"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">Прогуливаясь по Святогорово, можно почувствовать атмосферу старинной русской
@@ -212,249 +360,289 @@
     <!-- Природа Святогорово-->
     <h2 class="masonry-item masonry-item_type_header path-point" id="nature">Природа Святогорово</h2>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Природа Святогорово – это живописное сочетание лесов, полей и холмов, омываемых
-        рекой Велей. Разнообразие ландшафтов создает уникальную экосистему, где находят приют лесные животные,
-        встречаются редкие краснокнижные растения, а из-под земли бьют чистые родники. Это место, где природа сохранила
-        свою первозданную красоту.
+      <p class="masonry-item__text">Природа Святогорово — это живописное сочетание лесов, полей и холмов,
+        омываемых рекой Велей. Разнообразие ландшафтов создает уникальную экосистему, где находят приют лесные
+        животные, встречаются редкие краснокнижные растения, а из-под земли бьют чистые родники.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/nature-1.jpg" alt="Природа Святогорово" class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/nature-1.webp" type="image/webp">
+        <img src="/images/nature-1.jpg" alt="Природа Святогорово"
+             class="masonry-item__image" width="974" height="1280"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Лесные массивы окружают Святогорово зеленым покрывалом, наполняя воздух свежестью и
-        ароматом хвои и трав. Поля раскинулись широкими просторами, меняя свой цвет в зависимости от времени года. Холмы
-        плавно переходят друг в друга, создавая мягкий рельеф и открывая живописные панорамы. Река Веля неторопливо
-        несет свои воды, отражая небо и окружающие пейзажи.
+      <p class="masonry-item__text">Лесные массивы окружают Святогорово зеленым покрывалом, наполняя воздух
+        свежестью и ароматом хвои и трав. Поля раскинулись широкими просторами, меняя свой цвет в зависимости от
+        времени года. Река Веля неторопливо несет свои воды, отражая небо и окружающие пейзажи.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/nature-2.jpg" alt="Природа Святогорово" class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/nature-2.webp" type="image/webp">
+        <img src="/images/nature-2.jpg" alt="Природа Святогорово"
+             class="masonry-item__image" width="1280" height="917"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Природа Святогорово приглашает к неспешным прогулкам, созерцанию красот и обретению
-        умиротворения. Здесь можно насладиться тишиной, полюбоваться звездным небом, подышать чистым воздухом и
-        почувствовать гармонию с окружающим миром. Важно помнить о бережном отношении к этой уникальной природе, чтобы
-        сохранить ее для будущих поколений.
+      <p class="masonry-item__text">Природа Святогорово приглашает к неспешным прогулкам, созерцанию красот и
+        обретению умиротворения. Здесь можно насладиться тишиной, полюбоваться звездным небом, подышать чистым
+        воздухом и почувствовать гармонию с окружающим миром.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/nature-3.jpg"
            alt="Природа Святогорово"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="1024" height="683"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
 
     <!-- Тропа по следам преподобного Сергия Радонежского-->
-    <h2 class="masonry-item masonry-item_type_header path-point" id="sergiy">Тропа по следам преподобного Сергия
-      Радонежского</h2>
+    <h2 class="masonry-item masonry-item_type_header path-point" id="sergiy">Тропа по следам преподобного Сергия Радонежского</h2>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/sergiy-1.jpg" alt="Тропа по следам преподобного Сергия Радонежского"
-           class="masonry-item__image"/>
+           class="masonry-item__image" width="1280" height="952"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Тропа по следам преподобного Сергия Радонежского – это паломнический маршрут,
+      <p class="masonry-item__text">Тропа по следам преподобного Сергия Радонежского — это паломнический маршрут,
         берущий начало в Дмитрове и ведущий к Сергиевой Лавре. Этот путь пролегает по землям, связанным с жизнью и
-        подвигами великого святого, позволяя паломникам прикоснуться к его духовному наследию и пройти путем молитвы и
-        размышлений. Тропа соединяет святые места и живописные уголки Подмосковья.
+        подвигами великого святого, позволяя паломникам прикоснуться к его духовному наследию.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
       <img src="/images/sergiy-2.jpg" alt="Тропа по следам преподобного Сергия Радонежского"
-           class="masonry-item__image"/>
+           class="masonry-item__image" width="1280" height="1036"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Паломничество по тропе Сергия Радонежского – это не просто пеший поход, это духовное
-        путешествие, наполненное молитвой и покаянием. В пути паломники посещают храмы и монастыри, узнают о жизни
-        святого, его чудесах и наставлениях. Природа вокруг способствует уединению и размышлениям, помогая глубже
-        почувствовать духовную атмосферу паломничества.
+      <p class="masonry-item__text">Паломничество по тропе Сергия Радонежского — это не просто пеший поход, это
+        духовное путешествие, наполненное молитвой и покаянием. В пути паломники посещают храмы и монастыри, узнают
+        о жизни святого, его чудесах и наставлениях.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Тропа Сергия Радонежского – это возможность не только физически пройти путем
-        святого, но и духовно приблизиться к нему, почувствовать его покровительство и укрепить свою веру. Это путь к
-        духовному очищению и обновлению, возможность найти ответы на важные вопросы и обрести душевный покой.
+      <p class="masonry-item__text">Тропа Сергия Радонежского — это возможность не только физически пройти путем
+        святого, но и духовно приблизиться к нему, почувствовать его покровительство и укрепить свою веру.
       </p>
     </div>
-    <div class="masonry-item masonry-item_type_image  masonry-item_wide">
-      <img src="/images/sergiy-3.jpg"
-           alt="Тропа по следам преподобного Сергия Радонежского"
-           class="masonry-item__image"/>
+    <div class="masonry-item masonry-item_type_image masonry-item_wide">
+      <picture>
+        <source srcset="/images/sergiy-3.webp" type="image/webp">
+        <img src="/images/sergiy-3.jpg"
+             alt="Тропа по следам преподобного Сергия Радонежского"
+             class="masonry-item__image"
+             width="1280" height="976"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
 
     <!-- Организация выездных лагерей для детей и подростков-->
-    <h2 class="masonry-item masonry-item_type_header path-point" id="lager">Организация выездных лагерей для детей и
-      подростков</h2>
+    <h2 class="masonry-item masonry-item_type_header path-point" id="lager">Организация выездных лагерей для детей и подростков</h2>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/lager-1.jpg"
            alt="Организация выездных лагерей для детей и подростков"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="1028" height="785"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">В Святогорово регулярно организуются выездные лагеря для детей и подростков
-        воскресной школы "Преображение" Сретенского храма, что в Дмитрове, под духовным руководством настоятеля отца
-        Вадима Коржевского и с благословения иегумена Борисоглебского монастыря отца Августина. Эти лагеря создаются с
-        целью духовно-нравственного и патриотического воспитания молодого поколения, а также для развития их творческих
-        способностей и организации активного отдыха на природе.
+        воскресной школы "Преображение" Сретенского храма, что в Дмитрове, под духовным руководством настоятеля
+        отца Вадима Коржевского и с благословения иегумена Борисоглебского монастыря отца Августина.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
       <img src="/images/lager-2.jpg"
            alt="Организация выездных лагерей для детей и подростков"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="941" height="1280"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">ЛПрограмма лагерей насыщена разнообразными мероприятиями, включающими молитвы и
-        богослужения, беседы с батюшкой на духовные темы, мастер-классы по традиционным ремеслам, познавательные игры и
-        викторины, походы по окрестностям и творческие занятия. Все мероприятия направлены на духовное обогащение детей
-        и подростков, формирование у них православного мировоззрения и патриотических чувств.
+      <p class="masonry-item__text">Программа лагерей насыщена разнообразными мероприятиями: молитвы и богослужения,
+        беседы с батюшкой, мастер-классы по традиционным ремеслам, познавательные игры и викторины, походы по
+        окрестностям и творческие занятия.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/lager-3.jpg"
-           alt="Организация выездных лагерей для детей и подростков"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/lager-3.webp" type="image/webp">
+        <img src="/images/lager-3.jpg"
+             alt="Организация выездных лагерей для детей и подростков"
+             class="masonry-item__image"
+             width="1048" height="787"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Выездные лагеря в Святогорово – это уникальная возможность для детей и подростков
-        провести время с пользой для души и тела, в атмосфере православных традиций и красоты природы. Это время
-        духовного роста, новых знаний и ярких впечатлений, которое останется в памяти надолго.
+      <p class="masonry-item__text">Выездные лагеря в Святогорово — это уникальная возможность для детей и
+        подростков провести время с пользой для души и тела, в атмосфере православных традиций и красоты природы.
       </p>
     </div>
 
-    <!-- Просветительская историческо-православно-патриотическая игра-интерактив-->
-    <h2 class="masonry-item masonry-item_type_header path-point" style="font-size: 2.4em;" id="game">
+    <!-- Православно-патриотическая игра-->
+    <h2 class="masonry-item masonry-item_type_header masonry-item_type_header--compact path-point" id="game">
       Православно-патриотическая игра</h2>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">В ближайшем будущем планируется запуск уникальной просветительской игры-интерактива
-        в формате живого действия. Эта игра разрабатывается с целью познакомить участников с важными историческими
-        периодами России, православными ценностями и патриотическими идеями в увлекательной и доступной форме.
-        Интерактивный формат игры позволит участникам активно взаимодействовать друг с другом и с окружающим
-        пространством.
+      <p class="masonry-item__text">В ближайшем будущем планируется запуск уникальной просветительской
+        игры-интерактива в формате живого действия. Эта игра разрабатывается с целью познакомить участников с
+        важными историческими периодами России, православными ценностями и патриотическими идеями.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/game-0.jpg" alt="Православно-патриотическая игра" class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/game-0.webp" type="image/webp">
+        <img src="/images/game-0.jpg" alt="Православно-патриотическая игра"
+             class="masonry-item__image" width="1280" height="960"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/game-1.webp"
            alt="Православно-патриотическая игра"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="1280" height="585"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">Игра будет представлять собой квест живого действия, где участникам предстоит
-        выполнять различные задания, решать головоломки, участвовать в инсценировках и исследовать окружающую местность.
-        Содержание игры будет направлено на расширение кругозора участников, углубление их знаний по истории и
-        православию, а также на формирование чувства патриотизма и гражданской ответственности.
+        выполнять различные задания, решать головоломки, участвовать в инсценировках и исследовать окружающую
+        местность.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Просветительская игра-интерактив – это новый и интересный способ обучения и
-        духовного развития, который позволит участникам не только получить новые знания, но и пережить яркие эмоции и
-        незабываемые впечатления. Она станет ценным дополнением к просветительской работе в регионе и привлечет внимание
+      <p class="masonry-item__text">Просветительская игра-интерактив — это новый и интересный способ обучения и
+        духовного развития. Она станет ценным дополнением к просветительской работе в регионе и привлечет внимание
         как молодежи, так и взрослых.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/game-2.webp"
            alt="Православно-патриотическая игра"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="1280" height="597"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
 
     <!-- Подворье Борисоглебского мужского монастыря -->
     <h2 class="masonry-item masonry-item_type_header path-point" id="podvor">Подворье</h2>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/podvor-1.webp" alt="Подворье" class="masonry-item__image"/>
+      <img src="/images/podvor-1.webp" alt="Подворье"
+           class="masonry-item__image" width="853" height="1280"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Подворье Борисоглебского мужского монастыря, расположенное вблизи святого источника,
-        — тихая гавань, где повседневные заботы неразрывно связаны с молитвой и трудом. Это место, где принципы
-        христианского милосердия воплощаются в делах, а двери открыты для тех, кто ищет поддержки и утешения. Здесь,
-        вдали от мирской суеты, созданы условия для спокойной жизни и духовного роста.
+      <p class="masonry-item__text">Подворье Борисоглебского мужского монастыря, расположенное вблизи святого
+        источника, — тихая гавань, где повседневные заботы неразрывно связаны с молитвой и трудом. Это место, где
+        принципы христианского милосердия воплощаются в делах, а двери открыты для тех, кто ищет поддержки и
+        утешения.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/podvor-2.jpg"
            alt="Подворье"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="960" height="1280"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
     <div class="masonry-item masonry-item_type_text">
       <p class="masonry-item__text">Жизнь на подворье течет размеренно, в соответствии с традициями православного
-        благочестия. Небольшое хозяйство даёт возможность каждому желающему потрудиться во славу Божию. Здесь находят
-        приют и помощь люди, оказавшиеся в сложных жизненных обстоятельствах. Забота о ближнем, поддержка и сострадание
-        – основа здешнего уклада.
+        благочестия. Небольшое хозяйство даёт возможность каждому желающему потрудиться во славу Божию. Здесь
+        находят приют и помощь люди, оказавшиеся в сложных жизненных обстоятельствах.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Подворье, неразрывно связанное с духовной жизнью обители, следует ее уставу и хранит
-        ее традиции. Это особое пространство, где можно прикоснуться к истокам веры, обрести внутреннюю гармонию и
-        почувствовать благодатную силу молитвы. Оно открыто для всех, кто ищет путь к Богу, стремится к подлинным
-        ценностям и готов разделить с другими тепло своей души.
+      <p class="masonry-item__text">Подворье, неразрывно связанное с духовной жизнью обители, следует ее уставу и
+        хранит ее традиции. Оно открыто для всех, кто ищет путь к Богу, стремится к подлинным ценностям и готов
+        разделить с другими тепло своей души.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
       <img src="/images/podvor-3.jpg"
            alt="Подворье"
-           class="masonry-item__image"/>
+           class="masonry-item__image"
+           width="960" height="1280"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async"/>
     </div>
 
     <!-- Гостевой дом для туристов-->
     <h2 class="masonry-item masonry-item_type_header path-point" id="guest-house">Гостевой дом для туристов</h2>
     <div class="masonry-item masonry-item_type_image masonry-item_wide">
-      <img src="/images/guest-house-1.jpg" alt="Гостевой дом для туристов" class="masonry-item__image"/>
+      <img src="/images/guest-house-1.jpg" alt="Гостевой дом для туристов"
+           class="masonry-item__image" width="1024" height="683"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 100vw, 66vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">В Святогорово расположен уютный гостевой дом, радушные двери которого открыты для
-        туристов, ценителей природы, интересующихся историей православия и древнерусской архитектурой, а также для семей
-        с детьми. Гостевой дом представляет собой экологически чистое пространство, созданное с заботой о комфорте и
-        здоровье гостей. Здесь каждый сможет найти себе уголок для отдыха и восстановления сил.
+      <p class="masonry-item__text">В Святогорово расположен уютный гостевой дом, радушные двери которого открыты
+        для туристов, ценителей природы, интересующихся историей православия и древнерусской архитектурой, а также
+        для семей с детьми.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/guest-house-2.jpg" alt="Гостевой дом для туристов" class="masonry-item__image"/>
+      <img src="/images/guest-house-2.jpg" alt="Гостевой дом для туристов"
+           class="masonry-item__image" width="1280" height="960"
+           sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async">
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Гостевой дом предлагает размещение в уютных номерах, фотографии которых можно
-        увидеть на сайте. Интерьеры выполнены в эко-стиле, с использованием натуральных материалов и мягких тонов,
-        создавая атмосферу тепла и домашнего уюта. Гости могут насладиться тишиной и спокойствием сельской жизни,
-        отдохнуть от городской суеты и набраться энергии природы.
+      <p class="masonry-item__text">Гостевой дом предлагает размещение в уютных номерах. Интерьеры выполнены в
+        эко-стиле, с использованием натуральных материалов и мягких тонов, создавая атмосферу тепла и домашнего
+        уюта.
       </p>
     </div>
     <div class="masonry-item masonry-item_type_image">
-      <img src="/images/guest-house-3.jpg"
-           alt="Гостевой дом для туристов"
-           class="masonry-item__image"/>
+      <picture>
+        <source srcset="/images/guest-house-3.webp" type="image/webp">
+        <img src="/images/guest-house-3.jpg"
+             alt="Гостевой дом для туристов"
+             class="masonry-item__image"
+             width="1280" height="928"
+             sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 33vw"
+             loading="lazy" decoding="async"/>
+      </picture>
     </div>
     <div class="masonry-item masonry-item_type_text">
-      <p class="masonry-item__text">Помимо комфортного проживания, гостевой дом предлагает возможность познакомиться с
-        окрестностями Святогорово, посетить местные достопримечательности, принять участие в мероприятиях и просто
-        насладиться красотой природы и духовной атмосферой этого удивительного места. Это идеальное место для тех, кто
-        ищет спокойный и духовный отдых вдали от городской суеты.
+      <p class="masonry-item__text">Помимо комфортного проживания, гостевой дом предлагает возможность
+        познакомиться с окрестностями Святогорово, посетить местные достопримечательности и просто насладиться
+        красотой природы и духовной атмосферой этого удивительного места.
       </p>
     </div>
   </div>
 </section>
+
 <footer class="footer">
   <ul class="footer-container line-item path-point">
     <li class="footer-item">"Святогоровский заповедник"</li>
     <li class="footer-item footer-item_s">По вопросам размещения:</li>
-    <li class="footer-item"><a href="tel:+79265551920"
-                               type="tel"
-                               style="font-size: 24px;
-  display: inline-flex;
-  color: #333;">+79265551920</a></li>
+    <li class="footer-item"><a href="tel:+79265551920" class="footer-phone">+7 (926) 555-19-20</a></li>
     <li class="footer-item footer-item_s">По всем остальным вопросам в том числе содействие семьям ветеранов СВО</li>
-    <li class="footer-item"><a
-            href="mailto:igrastoria@mail.ru?subject=Святогорово"
-            type="email"
-    >igrastoria@mail.ru</a>
-    </li>
-    <li class="footer-item"><a href="https://yandex.ru/maps/-/CHuXa40Q" target="_blank">Россия, Дмитровский район
-      Московской области, деревня Святогорово</a></li>
+    <li class="footer-item"><a href="mailto:igrastoria@mail.ru?subject=Святогорово">igrastoria@mail.ru</a></li>
+    <li class="footer-item"><a href="https://yandex.ru/maps/-/CHuXa40Q" target="_blank" rel="noopener">Россия, Дмитровский район Московской области, деревня Святогорово</a></li>
   </ul>
 </footer>
-<svg id="animation-svg" width="100%" height="100%" style="position: absolute; top: 0; left: 0; pointer-events: none;">
-  <!-- Здесь будут линии -->
+
+<svg id="animation-svg" width="100%" height="100%" style="position: absolute; top: 0; left: 0; pointer-events: none;" aria-hidden="true">
 </svg>
-<!--<a class="scroll-up" href="#home"></a>-->
 </body>
 </html>
